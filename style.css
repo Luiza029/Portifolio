@@ -76,23 +76,6 @@ body{
     border-bottom: 3px solid var(--cor-principal);
 }
 
-.botao{
-    font-size: 1.8rem;
-    padding: 1rem 2rem;
-    border-radius: 3rem;
-    background: linear-gradient(90deg, #4B0082 10%, #8A2Be2);
-    letter-spacing: 1px;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-    color: white;
-    border: none;
-    text-wrap: nowrap;
-}
-
-.botao:hover{
-    transform: scale(1.05);
-}
-
 section{
     min-height: 100vh;
     padding: 10rem 15%;
@@ -265,37 +248,6 @@ span{
     font-size: 7rem;
     text-align: center;
     margin: 5rem;
-}
-
-.contato{
-    background-color: var(--fundo-cor);
-}
-
-.contato h2{
-    margin-bottom: 3rem;
-    color: var(--cor-texto);
-}
-
-.contato form{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-    margin: 5rem 0;
-    text-align: center;
-}
-
-.contato form .input-box input,
-.contato form textarea{
-    width: 100%;
-    padding: 2.5rem;
-    font-size: 1.8rem;
-    color: var(--cor-texto);
-    background-color: var(--fundo-cor);
-    border-radius: 2rem;
-    border: 2px solid var(--cor-principal);
-    margin: 1.5rem 0;
-    resize: none;
 }
 
 .rodape{
