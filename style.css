@@ -244,6 +244,63 @@ span{
     font-size: 1.6rem;
 }
 
+
+.projeto{
+    padding: 6rem 2rem;
+}
+
+.projeto-caixa{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projeto-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--fundo-cor);
+    border: 2px solid var(--cor-principal);
+    border-radius: 3rem;
+    gap: 2rem;
+    padding: 5rem 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 0 5px var(--cor-principal);
+    transition: 0.3s ease;
+}
+
+.projeto-card:hover{
+    box-shadow: 0 0 25px var(--cor-principal),
+    0 0 50px var(--cor-principal);
+    transform:  scale(1.03);
+}
+
+.projeto-img{
+    max-width: 300px;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+
+.projeto-card h3{
+    font-size: 3rem;
+}
+
+.projeto-card p{
+    font-size: 1.6rem;
+}
+
+.assunto{
+    font-size: 2.5rem;
+    margin: 6rem;
+    text-align: center;
+    padding: 8rem;
+}
+
 .titulo{
     font-size: 7rem;
     text-align: center;
@@ -359,7 +416,8 @@ span{
         width: 45vw;
     }
 
-    .contato form{
-        flex-direction: column;
+    .projeto-caixa{
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
 }   
