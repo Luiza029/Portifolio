@@ -303,7 +303,7 @@ span{
 .titulo{
     font-size: 7rem;
     text-align: center;
-    margin: 5rem auto;
+    margin: 2rem auto;
     display: block;
     width: 100%;
 }
@@ -382,7 +382,7 @@ span{
         width: 35vw;
     }
 
-    .titulo h2{
+    .titulo{
         text-align: center;
     }
 
@@ -429,5 +429,12 @@ span{
        font-size: 18px;
        text-align: left;
     }
-    
+
+    .titulo{
+        font-size: 5rem;
+        text-align: center;
+        margin: 2rem auto;
+        display: block;
+        width: 100%;
+    }
 }   
